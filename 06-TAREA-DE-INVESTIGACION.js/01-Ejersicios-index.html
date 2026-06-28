@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios JavaScript</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #eeeeee;
+            padding: 20px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        /* Estilo igual para TODOS los ejercicios */
+        .ejercicio {
+            background-color: #ffffff;
+            border: 1px solid #bbbbbb;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        input {
+            padding: 5px;
+            font-size: 15px;
+            border: 1px solid #999;
+            margin-right: 8px;
+        }
+
+        button {
+            padding: 6px 12px;
+            font-size: 15px;
+            border: 1px solid #666;
+            background-color: #e6e6e6;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d4d4d4;
+        }
+
+        .resultado {
+            margin-top: 12px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border: 1px solid #dddddd;
+            min-height: 30px;
+            font-size: 16px;
+            color: #222;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ejercicios de JavaScript</h1>
+
+    <!-- Ejercicio 1 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 1: Serie Fibonacci</h2>
+        <button onclick="ejecutarEjercicio1()">Ejecutar</button>
+        <div id="res1" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 2 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 2: Suma de números</h2>
+        <button onclick="ejecutarEjercicio2()">Ejecutar</button>
+        <div id="res2" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 3 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 3: Par o Impar</h2>
+        <button onclick="ejecutarEjercicio3()">Ejecutar</button>
+        <div id="res3" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 4 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 4: Factorial</h2>
+        <button onclick="ejecutarEjercicio4()">Ejecutar</button>
+        <div id="res4" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 5 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 5: Tabla de multiplicar</h2>
+        <input type="number" id="numeroTabla" min="1" max="10" placeholder="Número">
+        <button onclick="ejecutarEjercicio5()">Generar Tabla</button>
+        <div id="res5" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 6 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 6: Mayor de 3 números</h2>
+        <button onclick="ejecutarEjercicio6()">Ejecutar</button>
+        <div id="res6" class="resultado"></div>
+    </div>
+
+    <!-- Ejercicio 7 -->
+    <div class="ejercicio">
+        <h2>Ejercicio 7: Contar vocales</h2>
+        <button onclick="ejecutarEjercicio7()">Ejecutar</button>
+        <div id="res7" class="resultado"></div>
+    </div>
+
+    <!-- Enlaces a tus archivos JS -->
+    <script src="02-ejersicio1-main.js"></script>
+    <script src="03-ejersicio2-main.js"></script>
+    <script src="04-ejersicio3-main.js"></script>
+    <script src="05-ejersicio4-main.js"></script>
+    <script src="06-ejersicio5-main.js"></script>
+    <script src="07-ejersicio6-main.js"></script>
+    <script src="08-ejersicio7-main.js"></script>
+
+</body>
+</html>
