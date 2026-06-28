@@ -1,4 +1,4 @@
-// 🔹 1. Saludo dinámico según la hora del día
+
 window.onload = function() {
     const fecha = new Date();
     const hora = fecha.getHours();
@@ -15,7 +15,6 @@ window.onload = function() {
         elementoSaludo.textContent = saludo;
     }
 };
-// 🔹 2. Validar formulario de registro de clientes
 function validarRegistro() {
     let nombre = document.getElementById("nombre").value.trim();
     let apellido = document.getElementById("apellido").value.trim();
@@ -55,7 +54,6 @@ function validarRegistro() {
     alert("✅ Registro completado correctamente. ¡Gracias por confiar en nosotros!");
     return true;
 }
-// 🔹 3. Calcular cuotas de financiamiento
 function calcularCuotas() {
     let precio = parseFloat(document.getElementById("precioAuto").value);
     let cuotas = parseInt(document.getElementById("cantidadCuotas").value);
@@ -74,7 +72,6 @@ function calcularCuotas() {
         `Total a pagar: $${totalPagar.toFixed(2)}<br>
         Cuota mensual aproximada: $${valorCuota.toFixed(2)}`;
 }
-// 🔹 4. Validar formulario de reserva de motos
 function validarReservaMoto() {
     let nombre = document.getElementById("nombreMoto").value.trim();
     let correo = document.getElementById("correoMoto").value.trim();
