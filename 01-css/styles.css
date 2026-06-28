@@ -9,7 +9,6 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
 nav{
     display: flex;
     justify-content: center;
@@ -17,29 +16,24 @@ nav{
     background: rgba(0,0,0,0.8);
     padding: 15px;
 }
-
 nav a{
     color: gold;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 }
-
 nav a:hover{
     color: white;
 }
-
 table{
     margin: 20px auto;
     border-collapse: collapse;
     background: rgba(0,0,0,0.6);
 }
-
 th, td{
     padding: 10px;
     border: 1px solid white;
 }
-
 #miBox{
     border: 3px solid white;
     padding: 20px;
@@ -47,7 +41,6 @@ th, td{
     width: 60%;
     background: rgba(0,0,0,0.5);
 }
-
 .miCaja{
     border: 3px solid yellow;
     padding: 20px;
@@ -55,7 +48,6 @@ th, td{
     width: 60%;
     background: rgba(0,0,0,0.5);
 }
-
 #miCaja2{
     border: 3px solid red;
     padding: 20px;
@@ -63,7 +55,6 @@ th, td{
     width: 60%;
     background: rgba(0,0,0,0.5);
 }
-
 #miCaja3{
     border: 3px solid green;
     padding: 20px;
@@ -71,11 +62,9 @@ th, td{
     width: 60%;
     background: rgba(0,0,0,0.5);
 }
-
 a{
     color: gold;
 }
-
 /* Estilo de botones */
 .btn{
     display: inline-block;
@@ -90,11 +79,9 @@ a{
     cursor: pointer;
     font-size: 15px;
 }
-
 .btn:hover{
     background: #ffd700;
 }
-
 /* Campos de entrada */
 input, select{
     padding: 6px;

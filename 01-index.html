@@ -11,43 +11,33 @@
     <a href="01-index.html"> Autos</a>
     <a href="02-motos.html"> Motos</a>
 </nav>
-
 <!-- Saludo dinámico -->
 <h2 id="saludoDinamico" style="color: gold; margin-top: 20px;"></h2>
-
 <h1> AUTO CENTER ERICK </h1>
 <p>Bienvenido a nuestra empresa dedicada a la venta de automóviles nuevos y usados.</p>
 <img src="03-assets/01-images/01.jpeg" width="200">
 <hr>
-
 <h2>REGISTRO DE CLIENTES</h2>
 <form onsubmit="return validarRegistro()">
     <label>Nombre:</label>
     <input type="text" id="nombre"><br><br>
-
     <label>Apellido:</label>
     <input type="text" id="apellido"><br><br>
-
     <label>Correo:</label>
     <input type="email" id="correo"><br><br>
-
     <label>Teléfono:</label>
     <input type="tel" id="telefono"><br><br>
-
     <label>Contraseña:</label>
     <input type="password" id="contrasena"><br><br>
-
     <label>Género:</label>
     <input type="radio" name="genero"> Masculino
     <input type="radio" name="genero"> Femenino
     <br><br>
-
     <label>Marcas favoritas:</label>
     <input type="checkbox" name="marca"> Toyota
     <input type="checkbox" name="marca"> Nissan
     <input type="checkbox" name="marca"> Suzuki
     <br><br>
-
     <label>Tipo de vehículo:</label>
     <select>
         <option>Automóvil</option>
@@ -55,12 +45,10 @@
         <option>Vagoneta</option>
     </select>
     <br><br>
-
     <input type="submit" value="REGISTRAR" class="btn">
     <input type="reset" value="BORRAR" class="btn">
 </form>
 <hr>
-
 <h2>CALCULA TU FINANCIAMIENTO</h2>
 <p>Ingresa el precio del auto y la cantidad de cuotas:</p>
 <label>Precio ($):</label>
@@ -72,7 +60,6 @@
 <button type="button" onclick="calcularCuotas()" class="btn">Calcular</button>
 <div id="resultadoCuotas" style="margin-top:15px; font-size:18px; color: gold;"></div>
 <hr>
-
 <h2>MODELOS DISPONIBLES</h2>
 <ul>
     <li>Toyota Corolla</li>
@@ -81,7 +68,6 @@
     <li>Suzuki Vitara</li>
 </ul>
 <hr>
-
 <h2>PRECIOS</h2>
 <ol>
     <li>Toyota Corolla → 25.000 $</li>
@@ -89,7 +75,6 @@
     <li>Hyundai Tucson → 30.000 $</li>
 </ol>
 <hr>
-
 <h2>LISTA DE AUTOS</h2>
 <table border="4">
     <tr>
@@ -109,7 +94,6 @@
     </tr>
 </table>
 <hr>
-
 <h2>Horario de Atención</h2>
 <table border="3">
     <tr>
@@ -126,31 +110,26 @@
     </tr>
 </table>
 <hr>
-
 <h2>Conoce nuestra sección de motocicletas</h2>
 <a href="02-motos.html">
     <img src="03-assets/01-images/08.jpg" width="200">
 </a>
 <p>Haz clic para ir a motos.</p>
 <hr>
-
 <h2>Contacto</h2>
 <p>Celular: 64358058</p>
 <p>Email: autocenter@gmail.com</p>
 <hr>
-
 <h2>Redes Sociales</h2>
 <a href="https://www.facebook.com" target="_blank">Facebook</a> |
 <a href="https://www.instagram.com" target="_blank">Instagram</a> |
 <a href="https://www.tiktok.com" target="_blank">TikTok</a> |
 <a href="https://wa.me/59164358058" target="_blank">WhatsApp</a>
 <hr>
-
 <p id="miBox">Más de 500 clientes satisfechos.</p>
 <div class="miCaja">Contamos con financiamiento y garantía.</div>
 <div id="miCaja2">Los mejores precios del mercado.</div>
 <div id="miCaja3">¡Visítanos y compra el auto de tus sueños!</div>
-
 <!-- Enlace al archivo JavaScript -->
 <script src="02-js/main.js"></script>
 </body>
